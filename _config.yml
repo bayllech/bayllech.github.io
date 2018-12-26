@@ -6,13 +6,13 @@
 title: bayllech的个人博客
 subtitle: 深自缄默，如云漂泊
 description: 记录各种工具、软件、插件或笔记、心得等
-author: bayllech
+author:
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://bayllech.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,6 +69,11 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
