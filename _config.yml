@@ -79,9 +79,13 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   - type: git
-    repo: git@github.com:bayllech/bayllech.github.io.git
+    repo:
+        coding: git@git.coding.net:bayllech/bayllech.git,master
+        github: git@github.com:bayllech/bayllech.github.io.git,master
+
+#    repo: git@github.com:bayllech/bayllech.github.io.git
 #    repo: https://github.com/bayllech/bayllech.github.io.git
-    branch: master
+#    branch: master
 #  - type: git
 #    repo: git@github.com:bayllech/bayllech.github.io.git
 #    repo: https://github.com/bayllech/bayllech.github.io.git
