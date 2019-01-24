@@ -80,8 +80,8 @@ feed:
 deploy:
   - type: git
     repo:
-        coding: git@git.coding.net:bayllech/bayllech.git,master
-        github: git@github.com:bayllech/bayllech.github.io.git,master
+        coding: https://git.dev.tencent.com/bayllech/bayllech.git,master
+        github: https://github.com/bayllech/bayllech.github.io.git,master
 
 #    repo: git@github.com:bayllech/bayllech.github.io.git
 #    repo: https://github.com/bayllech/bayllech.github.io.git
@@ -94,3 +94,25 @@ deploy:
 #    ignore_hidden: false
 #    ignore_pattern:
 #        public: .
+
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-hibiki
+  display:
+    position: right
+    width: 100
+    height: 250
+    vOffset: -8
+  mobile:
+    show: true
+  react:
+    opacityDefault: 1.0
+    opacityOnHover: 0.6

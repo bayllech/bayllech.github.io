@@ -124,7 +124,8 @@
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=96520&auto=1&height=66"></iframe>
 
         {% include '../_custom/sidebar.swig' %}
-
+<span id="jinrishici-sentence">正在加载今日诗词....</span>
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
       </section>
 
       {% if display_toc and toc(page.content).length > 1 %}

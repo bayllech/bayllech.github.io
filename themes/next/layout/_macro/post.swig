@@ -68,6 +68,7 @@
               </time>
             {% endif %}
 
+{% if post.updated2 %}
             {% if theme.post_meta.created_at and theme.post_meta.updated_at %}
               <span class="post-meta-divider">|</span>
             {% endif %}
@@ -79,12 +80,12 @@
               {% if theme.post_meta.item_text %}
                 <span class="post-meta-item-text">{{ __('post.modified') }}</span>
               {% endif %}
-              <time title="{{ __('post.modified') }}" itemprop="dateModified" datetime="{{ moment(post.updated).format() }}">
-                {{ date(post.updated, config.date_format) }}
+              <time title="{{ __('post.modified') }}" itemprop="dateModified" datetime="{{ moment(post.updated2).format() }}">
+                {{ date(post.updated2, config.date_format) }}
               </time>
             {% endif %}
           </span>
-		  
+{% endif %}
 
           {% if post.categories and post.categories.length and theme.post_meta.categories %}
             <span class="post-category" >

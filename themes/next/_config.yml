@@ -246,6 +246,8 @@ post_meta:
   updated_at: true
   categories: true
 
+# updated：更新
+
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:

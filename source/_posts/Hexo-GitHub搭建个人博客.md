@@ -7,6 +7,5 @@ tags:
  - 博客
 ---
 
-### [转]Hexo+GitHub搭建个人博客
+[转：GitHub+Hexo 搭建个人网站详细教程-吴润](https://zhuanlan.zhihu.com/p/26625249)
 
-[转：GitHub+Hexo 搭建个人网站详细教程-吴润]: (https://zhuanlan.zhihu.com/p/26625249)
