@@ -80,20 +80,22 @@ feed:
 deploy:
   - type: git
     repo:
-        coding: https://git.dev.tencent.com/bayllech/bayllech.git,master
+        gitee: https://gitee.com/bayllech/bayllech.git,master
         github: https://github.com/bayllech/bayllech.github.io.git,master
+    branch: master
 
 #    repo: git@github.com:bayllech/bayllech.github.io.git
 #    repo: https://github.com/bayllech/bayllech.github.io.git
 #    branch: master
-#  - type: git
-#    repo: git@github.com:bayllech/bayllech.github.io.git
-#    repo: https://github.com/bayllech/bayllech.github.io.git
-#    branch: hexo
-#    extend_dirs: /
-#    ignore_hidden: false
-#    ignore_pattern:
-#        public: .
+  - type: git
+    repo: 
+        gitee: git@gitee.com:bayllech/bayllech.git
+        github: git@github.com:bayllech/bayllech.github.io.git
+    branch: hexo
+    extend_dirs: /
+    ignore_hidden: false
+    ignore_pattern:
+        public: .
 
 
 live2d:
